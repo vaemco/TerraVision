@@ -16,10 +16,3 @@ The project development is divided into the following stages:
 2.  **Explainable AI:** Implementation of Grad-CAM to visualize and verify the features learned by the model.
 3.  **Data Pipeline:** Integration with the NASA EONET API for event triggering and the Microsoft Planetary Computer API for satellite image retrieval.
 4.  **Visualization:** Creation of a web-based dashboard (Flask + Leaflet) to display the live analysis and segmentation masks.
-
-## Repository Structure
-
-- `notebooks/`: Contains Jupyter notebooks for data exploration, model training, and XAI evaluation.
-- `src/`: Contains the core application logic, API clients, and model definitions.
-- `app/`: Contains the web dashboard implementation.
-- `data/`: Local storage for datasets (ignored by version control).
